@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import './App.css';
+import './styles/App.css';
 import FlashcardLearning from './components/FlashcardLearning';
 import Dashboard from './components/Dashboard';
 import Navigation from './components/Navigation';
