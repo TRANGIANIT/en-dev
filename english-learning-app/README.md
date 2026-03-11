@@ -1,5 +1,7 @@
 # 📚 English Learning Hub - Học Tiếng Anh Với Spaced Repetition
 
+**🌐 Live Demo**: https://TRANGIANIT.github.io/en-dev
+
 ## Giới Thiệu
 
 **English Learning Hub** là một ứng dụng web hiện đại được thiết kế để giúp bạn học tiếng Anh hiệu quả nhất. Ứng dụng kết hợp hai phương pháp học tập tối ưu:
@@ -7,7 +9,7 @@
 - 🔄 **Spaced Repetition System (SRS)** - Hệ thống ôn tập cách quãng theo thuật toán SM-2
 - 📇 **Flashcards** - Thẻ ghi nhớ thông minh với ví dụ và định nghĩa
 
-## Tính Năng Chính
+## ✨ Tính Năng Chính
 
 ### 1. 📊 Dashboard Thông Minh
 - Xem tổng quan tiến độ học tập
@@ -39,6 +41,54 @@ Sau khi trả lời mỗi câu hỏi, bạn đánh giá mức độ hiểu biế
 - 😐 **Bình Thường** - Vừa nhớ, chưa rõ ràng
 - 😊 **Tốt** - Nhớ rõ, thường trả lời đúng
 - 🤩 **Hoàn Hảo** - Rất chắc chắn, nhớ kỹ
+
+## 🚀 Quick Start
+
+### 🌐 Online (Không Cần Cài Đặt)
+Truy cập trực tiếp: **https://TRANGIANIT.github.io/en-dev**
+
+### 💻 Local Development
+
+#### Yêu Cầu
+- Node.js (version 14 trở lên)
+- npm hoặc yarn
+
+#### Các Bước
+
+1. **Clone project**
+```bash
+git clone https://github.com/TRANGIANIT/en-dev.git
+cd en-dev/english-learning-app
+```
+
+2. **Cài đặt dependencies**
+```bash
+npm install
+```
+
+3. **Chạy dev server**
+```bash
+npm start
+```
+
+4. **Truy cập**
+- Mở trình duyệt: http://localhost:3000
+
+## 🌐 Deployment
+
+### Deploy lên GitHub Pages
+
+Tự động deploy khi push lên branch `main`:
+
+```bash
+git add .
+git commit -m "Your message"
+git push origin main
+```
+
+GitHub Actions sẽ tự động build và deploy.
+
+**Xem chi tiết**: [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## Cách Cài Đặt
 
